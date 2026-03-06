@@ -16,14 +16,14 @@ otherwise you will receive "Presentation Error".
 
 """ Solution (A) """
 
-# # Read the input as a float
-# R = float(input())
-#
-# # Use the exact PI value provided in the problem description
-# A = (R ** 2) *  3.14159
-#
-# # Print with exactly 4 decimal places and a mandatory newline
-# print(f"A={A:.4f}")
+# Read the input as a float
+R = float(input())
+
+# Use the exact PI value provided in the problem description
+A = (R ** 2) *  3.14159
+
+# Print with exactly 4 decimal places and a mandatory newline
+print(f"A={A:.4f}")
 
 """ Solution (B) """
 print(f"A={( ( float(input().strip()) ** 2 ) *  3.14159 ):.4f}")
